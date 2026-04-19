@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Creation</title>
+</head>
+<body>
+
+    <header>
+        <h1>Advanced Contact Form</h1>
+        <p>Structured HTML form using professional input elements.</p>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+
+            <fieldset>
+                <legend><strong>Personal Information</strong></legend>
+
+                <label for="fullname">Full Name:</label>
+                <input
+                    type="text"
+                    id="fullname"
+                    name="fullname"
+                    placeholder="Enter your full name"
+                    required>
+                
+                <br><br>
+
+                <label for="email">Email:</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="your@gmail.com"
+                    required>
+            </fieldset>
+
+            <br><br>
+
+            <fieldset>
+                <legend><strong>Course Selection</strong></legend>
+
+                <label for="courses">Course:</label>
+                <select id="courses" name="courses" required>
+                    <option value="" disabled selected>Choose a course</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="javascript">JavaScript</option>
+                </select>
+            </fieldset>
+
+            <br><br>
+
+            <fieldset>
+                <legend><strong>Message</strong></legend>
+
+                <label for="message">Message:</label>
+                <br>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    cols="40"
+                    placeholder="Why do you want to join?"
+                    required></textarea>
+            </fieldset>
+
+            <br><br>
+
+            <button
