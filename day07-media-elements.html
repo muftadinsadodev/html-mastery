@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 07 - Media Elements</title>
+</head>
+<body>
+
+    <header id="home">
+        <h1>Muftadin Ebrahim</h1>
+        <p>Media Hub - Audio, Video, and Iframe</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#audio">Audio</a>
+        <a href="#video">Video</a>
+        <a href="#iframe">Iframe</a>
+    </nav>
+
+    <main>
+
+        <section id="audio">
+            <h2>Audio</h2>
+            <p>Audio playback example.</p>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+        <section id="video">
+            <h2>Video</h2>
+            <p>Video playback example.</p>
+            <video controls muted loop width="400">
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <section id="iframe">
+            <h2>Iframe</h2>
+            <p>Embedded YouTube content example.</p>
+
+            <iframe
+                title="YouTube video"
+                src="https://www.youtube.com/embed/IgLcQm1N2Xg"
+                width="400"
+                height="350"
+                allowfullscreen>
+            </iframe>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Muftadin Ebrahim | 
+            <a href="https://github.com" target="_blank">GitHub</a> |
+            <a href="#home">Back to top</a>
+        </p>
+    </footer>
+
+</body>
+</html>
